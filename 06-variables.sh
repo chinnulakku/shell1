@@ -7,4 +7,4 @@ read -s USERNAME #the value entered above will be automatically attached to USER
 echo :Please enter your PASSWORD::"
 read -s PASSWORD
 
-echo "Username is: $USERNAME, Password is: $PASSWORD" # Iam  printing just for validation, you should not print username and passwords in scripts
+echo "Username is: $USERNAME, Password is: $PASSWORD" # I am  printing just for validation, you should not print username and passwords in scripts

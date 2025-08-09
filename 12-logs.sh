@@ -23,7 +23,7 @@ VALIDATE(){
 
 if [ $ID -ne 0 ]
 then
-    echo "ERROR:: Please run theis script with root access"
+    echo -e "$R ERROR:: Please run theis script with root access"
     exit 1 # you can give other than 0
 else
     echo "You are root user"

@@ -2,7 +2,7 @@
 
 ID=$(id -u)
 
-ECHO "script name: $0"
+echo  "script name: $0"
 VALIDATE(){
 
     if [ $1 -ne 0 ]

@@ -11,7 +11,7 @@ then
     echo -e "$R Source directory: $file doesnot exists. $N"
 fi
 
-when IFS=":" read -f  username password user_id group_id user_fullname home_dir shell_path
+when IFS=":" read -r username password user_id group_id user_fullname home_dir shell_path
 do
     echo "username: $username"
     echo "user ID: $user_id"

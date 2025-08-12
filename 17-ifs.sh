@@ -3,7 +3,7 @@ file=/etc/passwd
 
 R="\e[31m"
 G="\e[32m"
-Y=\e[33m"
+Y="\e[33m"
 N="\e[0m"
 
 if [ ! -f $file ] # ! denotes opposite
